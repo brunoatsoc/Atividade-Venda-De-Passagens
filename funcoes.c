@@ -46,7 +46,7 @@ void menuPrincipal(void){
 
         printf("O nome do passgeiro(a) é %s\n\n", meses[mes].days[diaMes].horas[horario].idaEVolta[direcao].pltrn[poltrona].nome);
     }else if(escolha == 5){
-        printf("O horariomaisrentavel foi %d\n\n", horarioMaisRentavel());
+        printf("O horariomaisrentavel foi %d:00\n\n", horarioMaisRentavel());
     }else if(escolha == 6){
         printf("A média de idade é %f\n\n", mediaDeIdades());
     }
