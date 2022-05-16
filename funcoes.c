@@ -5,7 +5,7 @@ void menuPrincipal(void){
     static int mes, diaMes, horario, direcao, poltrona;
     static float contador = 0;
 
-    printf("DIGITE 1 PARA VENDER UMA PASSAGEM\n");
+    printf("\nDIGITE 1 PARA VENDER UMA PASSAGEM\n");
     printf("DIGITE 2 PARA VER O TOTAL ARRECADADO EM UMA VIAGEM\n");
     printf("DIGITE 3 PARA PARA VER O TOTAL ARRECADO EM UM MÊS\n");
     printf("DIGITE 4 PARA SABER O NOME DE UM PASSAGEIRO EM UMA POLTRONA EM UMA VIAGEM\n");
@@ -72,7 +72,7 @@ void dadosVendas(void){
             for(k = horas; k <= horas; k++){
                 printf("Escolha a direção\n\n");
                 printf("São Paulo -> Rio de Janeiro[0]\n");
-                printf("Rio de janeiro -> São Paulo[1]\n");
+                printf("Rio de janeiro -> São Paulo[1]\nEscolha a opção: ");
                 scanf("%d", &direcao);
 
                 for(l = direcao; l <= direcao; l++){
