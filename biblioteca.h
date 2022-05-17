@@ -39,5 +39,6 @@ int horarioMaisRentavel(void);
 float mediaDeIdades(void);
 void iniciaVariaveis(void);
 void menuPrincipal(void);
+//Fim das declarações de funções
 
 #endif

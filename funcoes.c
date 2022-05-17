@@ -1,5 +1,6 @@
 #include "biblioteca.h"
 
+//Inicio do menuPrincipal
 void menuPrincipal(void){
     int escolha;
     static int mes, diaMes, horario, direcao, poltrona;
@@ -51,7 +52,9 @@ void menuPrincipal(void){
         printf("A média de idade é %f\n\n", mediaDeIdades());
     }
 }
+//Fim menuPrincipal
 
+//Inicio dadosVendas
 void dadosVendas(void){
     int i, j, k, l, m;
     static int horas, direcao, poltrona, totalVendas = 0, mes, dia, mesArrecadado;
@@ -99,7 +102,9 @@ void dadosVendas(void){
         }
     }
 }
+//Fim dadosVendas
 
+//Inicio totalArrecadadoViagem
 int totalArrecadadoViagem(int mes, int diaMes, int horario, int direcao){
     int soma = 0, i;
 
@@ -109,7 +114,9 @@ int totalArrecadadoViagem(int mes, int diaMes, int horario, int direcao){
 
     return soma;
 }
+//Fim totalArrecadadoViagem
 
+//Inicio totalArrecadadoMes
 int totalArrecadadoMes(int mes){
     int diaMes, horario, direcao, poltrona, soma = 0;
 
@@ -125,7 +132,9 @@ int totalArrecadadoMes(int mes){
 
     return soma;
 }
+//Fim totalArrecadadoMes
 
+//Inicio horarioMaisRentavel
 int horarioMaisRentavel(void){
     int hora1 = 0, hora2 = 0, hora3 = 0, hora4 = 0, hora5 = 0;
     int i, j, k, l;
@@ -156,7 +165,9 @@ int horarioMaisRentavel(void){
         return 20;
     }
 }
+//Fim horarioMaisRentavel
 
+//Inicio mediaDeIdades
 float mediaDeIdades(){
     int i, j, k, l, m, soma = 0, contador = 0;
 
@@ -177,7 +188,9 @@ float mediaDeIdades(){
 
     return soma / contador;
 }
+//Fim mediaDeIdades
 
+//Inicio iniciaVariaveis
 void iniciaVariaveis(void){
     int i, j, k, l, m;
 
@@ -197,3 +210,4 @@ void iniciaVariaveis(void){
         }
     }
 }
+//Fim inciaVariaveis

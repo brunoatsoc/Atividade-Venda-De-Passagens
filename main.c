@@ -1,5 +1,6 @@
 #include "biblioteca.h"
 
+//Função principal
 int main(void){
     iniciaVariaveis();
 
